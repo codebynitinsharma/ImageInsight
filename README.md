@@ -1,4 +1,4 @@
-# Captionwiz
+# ImageInsinght
 
 ## Overview 
 Image captioning is a challenging task in the field of computer vision and natural language processing. The goal of this project is to automatically generate captions that accurately describe the content of an image.
@@ -6,7 +6,7 @@ Image captioning is a challenging task in the field of computer vision and natur
 ## Model 1
 
 ## Technology used
-python,pandas,numpy,tensorflow,keras,streamlit.
+python, pandas,numpy,tensorflow,keras,streamlit.
 
 
 ## Features
@@ -17,7 +17,7 @@ python,pandas,numpy,tensorflow,keras,streamlit.
 - ###  Streamlit Interface:
     Hosted using Streamlit, providing a user-friendly interface for uploading images and viewing generated captions.
 - ### Pretrained Models:
-   Includes pretrained weights for both the CNN and LSTM models to facilitate quick deployment and usage.
+   Includes pre-trained weights for both the CNN and LSTM models to facilitate quick deployment and usage.
 - ### Trained on Flickr Dataset:
    The models are trained on the Flickr dataset, a widely used benchmark dataset for image captioning tasks.
 
@@ -35,7 +35,7 @@ python,pandas,numpy,tensorflow,keras,streamlit.
 - Activating the virtual environment
   
    run source env/bin/activate
-- Runining the streamlit file
+- Running the streamlit file
   
    run streamlit run app.py
 
@@ -44,7 +44,7 @@ python,pandas,numpy,tensorflow,keras,streamlit.
 
 ## Model 2
 
-## Model using CNN nad Transformer
+## Model using CNN and Transformer
 
 ## Dependencies
 •⁠  ⁠Python 3.x
@@ -55,7 +55,7 @@ python,pandas,numpy,tensorflow,keras,streamlit.
 
  
 ## Dataset
-We used the MS Coco - 2017 dataset for training and evaluation. It contains a large collection of images (around 6 hundeed thousand) along with corresponding captions.
+We used the MS Coco - 2017 dataset for training and evaluation. It contains a large collection of images (around 6 hundred thousand) and corresponding captions.
 
 ## Model Architecture
-We employ a Transformer model for image captioning. The model consists of three main parts: A pretrained CNN (inceptionv3 is used for this project) for image extraction, the Transformer Encoder for processing the image features and the caption embeddings, and a Transformer Decoder for generating the output captions.
+We employ a Transformer model for image captioning. The model consists of three main parts: A pre-trained CNN (inceptionv3 is used for this project) for image extraction, the Transformer Encoder for processing the image features and the caption embeddings, and a Transformer Decoder for generating the output captions.
