@@ -2,6 +2,8 @@
 
 ## Overview 
 Image captioning is a challenging task in the field of computer vision and natural language processing. The goal of this project is to automatically generate captions that accurately describe the content of an image.
+## Data Model:
+The link for data is [Data](https://drive.google.com/drive/folders/1eAwZfi882z_sA-PZpSgqgxUz8AJDlk5e?usp=drive_link)
 
 ## Model 1
 
